@@ -1,0 +1,449 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lobster&family=Nerko+One&family=Oswald:wght@200;300;500&family=Rubik+Spray+Paint&family=Rubik:wght@300&display=swap");
+body, * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+li {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Fredoka One", sans-serif;
+  color: #fff;
+}
+
+a:hover {
+  color: gold;
+}
+
+button {
+  margin-top: 50px;
+  width: 150px;
+  height: 50px;
+  font-size: 15px;
+  border: none;
+  font-family: "Fredoka One", sans-serif;
+  border-radius: 30px;
+  background-color: #ff4c60;
+}
+
+button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+button:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+button::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.4s;
+}
+
+.page {
+  width: 100%;
+  height: auto;
+  background-color: #353353;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.page .page2 {
+  width: 70%;
+  height: auto;
+}
+
+.ccc {
+  margin-top: 100px;
+  font-size: 25px;
+  color: #9f98cb;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  background-color: #353353;
+}
+header .logo {
+  width: 30%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header nav {
+  float: right;
+  width: 70%;
+  height: auto;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+main p {
+  text-align: center;
+}
+main h1 {
+  font-size: 40px;
+}
+main .selection-one {
+  margin-top: 200px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+main .selection-one .aaa {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Fredoka One", sans-serif;
+}
+main .selection-one .icon {
+  width: 50%;
+  height: 20vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+main .selection-one .icon i {
+  font-size: 25px;
+  margin: 10px;
+}
+main .selection-one button {
+  margin-top: 50px;
+  font-size: 30px;
+  width: 150px;
+  height: 200px;
+  border: none;
+  font-family: "Fredoka One", sans-serif;
+  border-radius: 30px;
+  background-color: #ff4c60;
+}
+main .selection-two {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+main .selection-two h1 {
+  font-size: 50px;
+}
+main .selection-two .cart2 {
+  font-size: 25px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  width: 306px;
+  height: 310px;
+  background-color: #f9d74c;
+  padding: 30px;
+}
+main .selection-two .cart2 p {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+main .selection-two .cart2:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+main .selection-two .cart3:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+main .selection-two .cart3 {
+  font-size: 25px;
+  width: 306px;
+  height: 310px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 306px;
+  height: 310px;
+  background-color: #f97b8b;
+  padding: 30px;
+}
+main .selection-two .cart3 p {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+main .section-three .list2 {
+  margin-top: 50px;
+  display: flex;
+  float: left;
+}
+main .section-three .list2 ul li a {
+  margin: 15px;
+}
+main .section-three .works {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+main .section-three .works img {
+  margin-top: 50px;
+  width: 300px;
+  height: 280px;
+  border-radius: 20px;
+  background-color: aliceblue;
+  margin: 20px;
+}
+main .section-three .works img:hover {
+  opacity: 0.3;
+}
+main .section-three button {
+  margin-top: 50px;
+  font-size: 20px;
+  width: 150px;
+  height: 50px;
+  border: none;
+  font-family: "Fredoka One", sans-serif;
+  border-radius: 30px;
+  background-color: #ff4c60;
+  margin-left: 400px;
+}
+main .selection-four {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+main .selection-four .plan1 {
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 276px;
+  height: 455px;
+  background-color: #302F4E;
+}
+main .selection-four .plan1 p span {
+  font-size: 50px;
+}
+main .selection-four .plan1 button {
+  margin-top: 50px;
+  width: 150px;
+  height: 50px;
+  font-size: 15px;
+  border: none;
+  font-family: "Fredoka One", sans-serif;
+  border-radius: 30px;
+  background-color: #ff4c60;
+}
+main .selection-four .plan2 {
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 276px;
+  height: 455px;
+  background-color: #302F4E;
+}
+main .selection-four .plan2 p span {
+  font-size: 50px;
+}
+main .selection-four .plan2 button {
+  margin-top: 50px;
+  width: 150px;
+  height: 50px;
+  font-size: 15px;
+  border: none;
+  font-family: "Fredoka One", sans-serif;
+  border-radius: 30px;
+  background-color: #ff4c60;
+}
+main .selection-four .plan3 {
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 276px;
+  height: 455px;
+  background-color: #302F4E;
+}
+main .selection-four .plan3 p span {
+  font-size: 50px;
+}
+main .selection-four .plan3 button {
+  margin-top: 50px;
+  width: 150px;
+  height: 50px;
+  font-size: 15px;
+  border: none;
+  font-family: "Fredoka One", sans-serif;
+  border-radius: 30px;
+  background-color: #ff4c60;
+}
+main .section-five {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+main .section-five h4 {
+  font-size: 30px;
+  font-family: "Fredoka One", sans-serif;
+}
+main .section-five .textt {
+  border-radius: 25px;
+  width: 50%;
+  height: 100px;
+  background-color: #302F4E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .section-five .iconss {
+  font-size: larger;
+  width: 60%;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+main .section-five .iconss img {
+  margin: 20px;
+}
+main .section-six {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+main .section-six .pst1 {
+  width: 30%;
+  height: 250px;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  height: 180px;
+}
+main .section-six .pst1 h2 a {
+  background-color: #1f1e31;
+  font-family: sans-serif;
+}
+main .section-six .pst1 img {
+  float: top;
+  border-radius: 25px;
+  background-color: #fff;
+}
+main .hhh h1 {
+  margin-top: 80px;
+}
+main .btt {
+  display: flex;
+  justify-content: center;
+}
+main .btt button {
+  margin-top: 50px;
+  width: 150px;
+  height: 50px;
+  font-size: 15px;
+  border: none;
+  font-family: "Fredoka One", sans-serif;
+  border-radius: 30px;
+  background-color: #ff4c60;
+}
+
+.page .page2 main .selection-two {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+.page .page2 main .selection-two .cart1 {
+  width: 30%;
+  height: auto;
+  background-color: #6C6CE5;
+}
+
+footer {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: row;
+}
+footer .form {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  float: right;
+}
+footer .form input {
+  display: flex;
+  width: 276px;
+  float: right;
+  height: 60px;
+  background-color: #fff;
+  border-radius: 30px;
+  border: 0;
+  margin: 10px;
+}
+footer .form .tt {
+  width: 583px;
+  height: 60px;
+}
+footer textarea {
+  width: 580px;
+  height: 148px;
+  margin-left: 200px;
+  background-color: #fff;
+  border-radius: 30px;
+  border: 0;
+}/*# sourceMappingURL=style.css.map */

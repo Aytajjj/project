@@ -1,0 +1,14 @@
+main .selection-one {
+  width: 30%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .selection-one .aaa {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}/*# sourceMappingURL=_main.css.map */

@@ -1,0 +1,356 @@
+main{ 
+  p{
+  text-align: center;
+}
+   h1{
+    font-size: 40px;
+   }
+    display: flex;
+    flex-direction: column;
+.selection-one{
+  margin-top: 200px;
+        width:100%;
+        height: 100vh;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+  flex-direction: column;
+    justify-content: space-between;
+   
+  
+    .aaa{
+ height: 30vh;
+  display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+font-family: 'Fredoka One', sans-serif;
+}
+.icon{
+  width: 50%;
+        height: 20vh;
+        display: flex;
+ justify-content: space-evenly;
+ i{
+ font-size: 25px;
+ margin:10px;
+
+ }}
+button{
+    margin-top: 50px;
+    font-size: 30px;
+width: 150px;
+height: 200px;
+    border: none;
+  font-family: "Fredoka One", sans-serif;
+    border-radius: 30px;
+    background-color: #ff4c60;
+  }
+
+}
+.selection-two {
+   width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  h1 {
+  font-size: 50px;
+  
+}
+// .cart1{p{
+//   font-family: sans-serif;
+//   font-size: 20px;
+// }
+
+//   font-size: 25px;
+
+//   justify-content: center;
+//   align-items: center;
+// display: flex;
+// flex-direction: column;
+//   border-radius: 20px;
+
+//   width: 306px;
+//   height: 310px;
+//   background-color: #be4aa9;
+//   padding: 30px;
+// }
+
+.cart2{
+  p{
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+  font-size: 25px;
+
+  justify-content: center;
+  align-items: center;
+display: flex;
+flex-direction: column;
+  border-radius: 20px;
+
+  width: 306px;
+  height: 310px;
+  background-color: #f9d74c;
+  padding: 30px;
+}
+.cart2:hover{
+     transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+
+}
+.cart3:hover{
+     transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+
+}
+ .cart3{p{
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+  
+  font-size: 25px;
+  width: 306px;
+  height: 310px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+display: flex;
+flex-direction: column;
+  width: 306px;
+  height: 310px;
+  background-color: #f97b8b;
+  padding: 30px;
+}
+}
+.section-three{
+  
+.list2{
+  margin-top: 50px;
+display: flex;
+  float: left;
+  ul{li{ a {
+margin: 15px;
+}
+}}}
+.works {
+
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: space-evenly;
+ border-radius: 20px;
+ justify-content: center;
+
+
+flex-wrap: wrap;
+img{
+  margin-top: 50px;
+ width: 300px;
+ height: 280px;
+ border-radius: 20px;
+ background-color: aliceblue;
+ margin: 20px;
+
+}
+img:hover{
+  opacity: 0.3;
+}
+}
+button{
+   margin-top: 50px;
+    font-size: 20px;
+width: 150px;
+height: 50px;
+    border: none;
+  font-family: "Fredoka One", sans-serif;
+    border-radius: 30px;
+    background-color: #ff4c60;
+    margin-left: 400px;
+}
+}
+.selection-four{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+justify-content: space-between;
+  .plan1{
+border-radius: 25px;
+     display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+    width: 276px;
+    height: 455px;
+    background-color: #302F4E;
+      p{
+      span{
+        font-size: 50px;}
+      }
+          button{ margin-top: 50px;
+    
+width: 150px;
+height: 50px;
+font-size: 15px;
+    border: none;
+  font-family: "Fredoka One", sans-serif;
+    border-radius: 30px;
+    background-color: #ff4c60;
+
+      }
+  }
+   .plan2{
+border-radius: 25px;
+
+      display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+    width: 276px;
+    height: 455px;
+    background-color: #302F4E;
+      p{
+      span{
+        font-size: 50px;}
+      }
+          button{ margin-top: 50px;
+    
+width: 150px;
+height: 50px;
+font-size: 15px;
+    border: none;
+  font-family: "Fredoka One", sans-serif;
+    border-radius: 30px;
+    background-color: #ff4c60;
+
+      }
+  }
+   .plan3{
+border-radius: 25px;
+
+      display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+    width: 276px;
+    height: 455px;
+    background-color: #302F4E;
+    p{
+      span{
+        font-size: 50px;
+      }
+      }
+      button{ margin-top: 50px;
+    
+width: 150px;
+height: 50px;
+font-size: 15px;
+    border: none;
+  font-family: "Fredoka One", sans-serif;
+    border-radius: 30px;
+    background-color: #ff4c60;
+
+      }
+    }
+    
+  }
+  .section-five{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    h4{
+      font-size: 30px;
+  font-family: "Fredoka One", sans-serif;
+      
+    }
+   .textt{
+    border-radius: 25px;
+    width: 50%;
+    height: 100px;
+    background-color:#302F4E ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+  .iconss{
+font-size: larger;
+    width: 60%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+img{
+  margin: 20px;
+}
+  
+  }
+
+}
+    .section-six{
+      width: 100%;
+      height: 400px;
+      display: flex;
+      justify-content:space-between;
+
+      
+      .pst1{
+        width: 30%;
+        height: 250px;
+        flex-direction: column;
+          display: flex;
+      justify-content:space-between;
+      // background-color: #1f1e31;
+
+        width: 300px;
+        height: 180px;
+        h2{
+      // background-color: #1f1e31;
+          a{
+      background-color: #1f1e31;
+
+          font-family: sans-serif;}
+        }
+        img{
+      // margin-top: 80px;
+      float: top;
+
+          border-radius: 25px;
+          background-color: #fff;
+        }
+      }
+    }
+
+      .hhh{
+        h1{
+          margin-top: 80px;
+        }
+      
+      }  
+  .btt{
+    display: flex;
+    justify-content: center;
+        button{
+        margin-top: 50px;
+    
+width: 150px;
+height: 50px;
+font-size: 15px;
+    border: none;
+  font-family: "Fredoka One", sans-serif;
+    border-radius: 30px;
+    background-color: #ff4c60;
+        }
+  }
+}

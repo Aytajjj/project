@@ -1,0 +1,36 @@
+footer {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: row;
+  .form {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    float: right;
+
+    input {
+      display: flex;
+      width: 276px;
+      float: right;
+      height: 60px;
+      background-color: #fff;
+      border-radius: 30px;
+      border: 0;
+      margin: 10px;
+    }
+    .tt {
+      width: 583px;
+      height: 60px;
+    }
+  }
+  textarea {
+    width: 580px;
+    height: 148px;
+    margin-left: 200px;
+    background-color: #fff;
+    border-radius: 30px;
+    border: 0;
+  }
+
+}

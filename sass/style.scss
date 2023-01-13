@@ -1,0 +1,30 @@
+@import 'reset';
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lobster&family=Nerko+One&family=Oswald:wght@200;300;500&family=Rubik+Spray+Paint&family=Rubik:wght@300&display=swap');
+.page{
+  width: 100%;
+    height: auto;
+    background-color:#353353; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+
+    .page2{
+        width: 70%;
+        height: auto;
+
+    }
+}
+.ccc{
+  margin-top: 100px;
+  font-size: 25px;
+  color: #9f98cb;
+}
+@import 'header';
+@import 'main';
+@import 'selectiontwo';
+@import 'footer';
+
+
